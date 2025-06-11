@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="one_player.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="one-player-window">
+    <main>
+        <header>
+        <h3>One player</h3>
+        </header>
+        <div class="enter-name">
+            <h3>Please, enter your name (English)</h3>
+        </div>
+        <form id="nameSelection">
+            <label><input type="text" name="name" placeholder="Your name"></label>
+        </form>
+        <div class="error-message" id="error-message"></div>
+        <div class="combobox-container">
+            <label for="combo-box">Choose your role:</label>
+            <select id="combobox" name="cb">
+                <option value="X">X</option>
+                <option value="O">O</option>
+            </select>
+        </div>
+        <div class="button-group">
+        <button type="button" id="start">Let's start!</button>
+        <button type="button" id="back">Back</button>
+        </div>
+    </main>
+    </div>
+</body>
+<script src="one_player.js"></script>
+</html>

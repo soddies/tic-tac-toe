@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="settings-window">
+        <main>
+            <header>
+                <h2>Settings</h2>
+            </header>
+            <form id="difficultSelection">
+                <h3>Choose the difficulty</h3>
+                <label><input type="radio" name="difficulty" value="1"> Easy</label>
+                <label><input type="radio" name="difficulty" value="2"> Hard</label>
+            </form>
+
+            <div class="choose-field-title">
+                <h3>Choose the size field</h3>
+            </div>
+            <div class="choose-field">
+                <label><input type="radio" name="size" value="1">3x3</label>
+                <label><input type="radio" name="size" value="2">5x5</label>
+            </div>
+            <div class="button-group">
+                <button id="save-settings">Save settings</button>
+                <button id="clean-settings">Clean settings</button>
+                <button id="back-main">Back</button>
+            </div>
+            <div class="error-message" id="error-message"></div>
+            <div class="success-message" id="success-message"></div>
+        </main>
+    </div>
+    <script src="settings.js"></script>
+</body>
+</html>

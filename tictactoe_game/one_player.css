@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.one-player-window {
+    width: 400px;
+    margin: 100px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+.one-player-window h3 {
+    font-weight: 400;
+}
+
+
+header {
+    margin-bottom: -10px;
+    font-weight: 100;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+    font-weight: normal;
+}
+
+button {
+    padding: 12px 24px;
+    margin: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+    font-family: "Lilita One", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    font-weight: 200;
+}
+
+input[type="text"] {
+    width: 260px;
+    border-radius: 15px;
+    height: 25px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.combobox-container {
+    margin-top: 20px;
+}
+
+.combobox-container label {
+    font-size: 1.2em;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.combobox-container #combobox {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.error-message {
+    height: 20px;
+    color: red;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.enter-name h3 {
+    margin-left: 10px;
+}

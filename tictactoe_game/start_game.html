@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="start_game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="start-game-window">
+    <main>
+    <header>
+        <h2>Two players</h2>
+    </header>
+    <div class="enter-name">
+        <h3>Please, enter names (English)</h3>
+    </div>
+    <form id="namesSelection">
+        <label><input type="text" name="name" placeholder="Player X"></label>
+        <br>
+        <label><input type="text" name="name2" placeholder="Player O"></label>
+    </form>
+    <div class="button-group">
+        <button type="button" id="start">Let's start!</button>
+        <button type="button" id="back">Back</button>
+    </div>
+    <div class="error-message" id="error-message"></div>
+    </main>
+    </div>
+    <script src="start_game.js"></script>
+</body>
+</html>

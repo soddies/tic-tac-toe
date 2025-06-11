@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-windows">
+    <header>
+        <h2>Tic Tac Toe</h2>
+    </header>
+    <main>
+        <div class="button-group">
+        <button id="startGame">Start Game</button>
+        <br>
+        <button id="settings">Settings</button>
+        <br>
+        </div>
+        <form id="playerSelection">
+            <label><input type="radio" name="playerCount" value="1">1 player</label>
+            <label><input type="radio" name="playerCount" value="2">2 players</label>
+        </form>
+        <div id="error-message" class="error-message"></div>
+    </main>
+    <footer>
+        <p>Game created by Ekaterina Pchelkina ❤️</p>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
